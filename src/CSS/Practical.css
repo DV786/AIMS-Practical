@@ -1,0 +1,22 @@
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  text-align: center;
+  background-color: #04aa6d;
+  color: white;
+}
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
